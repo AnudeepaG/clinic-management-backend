@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: clinic-backend
-    runtime: java
-    buildCommand: "mvn clean package"
-    startCommand: "java -jar target/clinic-management-1.0.0.jar"
-    plan: free
